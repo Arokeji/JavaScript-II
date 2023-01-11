@@ -145,7 +145,6 @@ let nombres = (personas) => {
     let sortedPeople = [];
 
     for(let n in personas){
-        
         (n == personas[n].id) ? sortedPeople.push(personas[n].name) : null;
     }
 
